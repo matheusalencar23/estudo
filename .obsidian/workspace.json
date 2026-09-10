@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estrutura de dados e algoritmos/Stack (pilha).md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stack (pilha)"
+              "title": "README"
             }
           }
         ]
@@ -215,9 +215,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e81898438ee5901",
+  "active": "70404c6fe99a7485",
   "lastOpenFiles": [
     "Estrutura de dados e algoritmos/Stack (pilha).md",
+    "README.md",
     "Excalidraw/stack_pilha.md",
     "Excalidraw/stack_pilha_add.md",
     "Estrutura de dados e algoritmos/Índice.md",
