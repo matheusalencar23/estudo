@@ -10,7 +10,8 @@ O versionamento e backup automático do vault é feito com o plugin [obsidian-gi
 .
 ├── Estrutura de dados e algoritmos/   # Notas sobre ED&A
 │   ├── Índice.md                      # Ponto de entrada do tópico
-│   └── Stack (pilha).md
+│   ├── Stack (pilha).md
+│   └── Queue (fila).md
 └── Excalidraw/                        # Desenhos/diagramas usados nas notas
     ├── stack_pilha.md
     ├── stack_pilha_add.md
@@ -23,6 +24,7 @@ Cada tópico de estudo tem sua própria pasta, com um arquivo `Índice.md` funci
 
 - **Estrutura de dados e algoritmos**
   - [Stack (pilha)](<Estrutura de dados e algoritmos/Stack (pilha).md>) — conceito de LIFO, inserção e remoção de elementos, com diagramas ilustrativos.
+  - [[Queue (fila)]] — conceito de FIFO, inserção e remoção de elementos, com diagramas ilustrativos.
 
 ## 🛠️ Como usar
 

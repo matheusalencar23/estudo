@@ -1,5 +1,7 @@
 [
   "obsidian-excalidraw-plugin",
   "obsidian-git",
-  "simple-code-formatter"
+  "simple-code-formatter",
+  "colorez",
+  "better-export-pdf"
 ]
