@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2223e895d67fc314",
+        "id": "c7e9d9b4362170c3",
         "type": "tabs",
         "children": [
           {
-            "id": "d1a342cada863ed5",
+            "id": "9297f1ced3bd4952",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Estrutura de dados e algoritmos/Linked List (lista ligada).md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "Linked List (lista ligada)"
             }
           }
         ]
@@ -193,16 +197,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d1a342cada863ed5",
+  "active": "9297f1ced3bd4952",
   "lastOpenFiles": [
+    "Excalidraw/linked_list_remove.md",
+    "Excalidraw/linked_list_add.md",
+    "Estrutura de dados e algoritmos/Linked List (lista ligada).md",
+    "Estrutura de dados e algoritmos/Queue (fila).md",
+    "Excalidraw/linked_list.md",
+    "Excalidraw/stack_pilha.md",
     "README.md",
     "Estrutura de dados e algoritmos/Índice.md",
-    "Estrutura de dados e algoritmos/Linked List (lista ligada).md",
     "Estrutura de dados e algoritmos/Stack (pilha).md",
-    "Estrutura de dados e algoritmos/Queue (fila).md",
     "Excalidraw/deque.md",
     "Excalidraw/queue_fila.md",
-    "Excalidraw/stack_pilha.md",
     "Excalidraw/queue_fila_remove.md",
     "Excalidraw/queue_fila_add.md",
     "Estrutura de dados e algoritmos/Índice.html",

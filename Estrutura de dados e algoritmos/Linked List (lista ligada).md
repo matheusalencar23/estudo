@@ -1,1 +1,7 @@
-Pilhas seguem o princípio **LIFO** (Last In First Out), ou seja, o último a entrar é o primeiro a sair.
+As listas ligadas armazenam uma coleção de elementos de forma sequencial, porém, diferente de arrays, as listas ligadas não tem seus elementos armazenados de forma contígua, ou seja, eles não são armazenados um ao lado do outro. Na lista ligada, cada elemento é constituído pelo elemento em sí e por uma referência que aponta para um outro nó, essa referência também pode ser nomeada como ponteiro ou ligação. Esse conjunto do elemento com o ponteiro é o nó (*node*).
+![[linked_list|100%]]
+Uma das vantagens da lista ligada com relação aos arrays convencionais é que não é necessário realizar deslocamentos nos elementos quando ocorre a adição ou remoção de elementos, porém, pelo fato de usarmos ponteiros, quando é necessário acessar um elemento no meio da lista é preciso percorrer a lista partindo do primeiro elemento da lista, esse primeiro elemento da lista pode ser chamado de *head*.
+Existem dois cenários na adição de elementos em uma lista ligada, um em que a lista está vazia e outro quando já existem elementos nela. Para a adicionar um elemento em uma lista vazia basta definir o apontamento do head para o elemento a ser adicionado. Caso a lista não esteja vazia precisamos manipular os ponteiros de forma a inserir o novo elemento, seja ele no início, meio o final da lista.
+![[linked_list_add|100%]]
+Para removermos elementos das listas ligadas também precisamos nos preocupar com os ponteiros.
+![[linked_list_remove|100%]]
