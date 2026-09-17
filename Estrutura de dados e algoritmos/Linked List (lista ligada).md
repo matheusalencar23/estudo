@@ -154,6 +154,7 @@ export default class LinkedList {
 ```
 Existem algumas variações de listas ligadas, por exemplo, listas duplamente ligadas (*Doubly Linked List*) e listas ligadas circulares (*Circular Linked List*).
 ## Doubly Linked List (listas duplamente ligadas)
+
 A diferença desse tipo de lista para as listas ligadas convencionais é que os nós dessa coleção tem uma refereência tanto para o próximo elemento da lista como para o anterior.
 ![[doubly_linked_list|100%]]
 Exemplo de implementação em JavaScript:
