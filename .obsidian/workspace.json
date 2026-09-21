@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "63d23ac01c25bc0b",
+        "id": "b724c41c052b56f8",
         "type": "tabs",
         "children": [
           {
-            "id": "b2def3e98d74df4f",
+            "id": "bf1914b4e539df9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -197,24 +197,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b2def3e98d74df4f",
+  "active": "bf1914b4e539df9e",
   "lastOpenFiles": [
+    "Excalidraw/Bancos de dados/exemplificacao.md",
+    "Excalidraw/Bancos de dados/dado_vs_informacao.md",
+    "Bancos de dados/Banco de dados.md",
+    "Estrutura de dados e algoritmos/Índice.md",
+    "README.md",
     "Estrutura de dados e algoritmos/Linked List (lista ligada).md",
     "Estrutura de dados e algoritmos/Stack (pilha).md",
     "Estrutura de dados e algoritmos/Dictionary (dicionário).md",
     "Excalidraw/Estrutura de dados e algoritmos/circular_linked_list.md",
-    "Bancos de dados/Banco de dados.md",
     "Excalidraw/Estrutura de dados e algoritmos",
-    "Excalidraw/Bancos de dados/dado_vs_informacao.md",
     "Excalidraw/Bancos de dados",
     "Excalidraw/Drawing 2026-09-17 17.18.28.excalidraw.md",
     "Estrutura de dados e algoritmos/Sets (conjuntos).md",
     "Estrutura de dados e algoritmos/Queue (fila).md",
-    "Estrutura de dados e algoritmos/Índice.md",
     "Estrutura de dados e algoritmos/HashTable (tabela hash).md",
     "Estrutura de dados e algoritmos/_TOC_.md",
     "Bancos de dados",
-    "README.md",
     "Excalidraw/Estrutura de dados e algoritmos/deque.md",
     "Excalidraw/Estrutura de dados e algoritmos/doubly_linked_list.md",
     "Excalidraw/Estrutura de dados e algoritmos/linked_list.md",

@@ -9,6 +9,7 @@ O versionamento e backup automático do vault é feito com o plugin [obsidian-gi
 ```
 .
 ├── Estrutura de dados e algoritmos/   # Notas sobre ED&A
+├── Bancos de dados/                   # Notas sobre Bancos de Dados
 └── Excalidraw/                        # Desenhos/diagramas usados nas notas
 ```
 
@@ -17,6 +18,7 @@ Cada tópico de estudo tem sua própria pasta, com um arquivo `Índice.md` funci
 ### Tópicos atuais
 
 - **Estrutura de dados e algoritmos**
+- **Bancos de dados**
 ## 🛠️ Como usar
 
 1. Instale o [Obsidian](https://obsidian.md/).
@@ -29,7 +31,7 @@ Cada tópico de estudo tem sua própria pasta, com um arquivo `Índice.md` funci
 
 ## ✍️ Convenções
 
-- Cada assunto novo vira uma pasta na raiz do vault, com um arquivo `Índice.md` listando as notas daquele tópico.
+- Cada assunto novo vira uma pasta na raiz do vault.
 - Diagramas ficam na pasta `Excalidraw/` e são embutidos nas notas de texto.
 - Commits são feitos automaticamente pelo plugin `obsidian-git` como backups periódicos do vault.
 
