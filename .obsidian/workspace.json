@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bancos de dados/Banco de dados.md",
+                "file": "Estrutura de dados e algoritmos/00_Índice.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Banco de dados"
+              "title": "00_Índice"
             }
           }
         ]
@@ -197,23 +197,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8409eb95ed4e314c",
+  "active": "d8e6b08372a87024",
   "lastOpenFiles": [
-    "Estrutura de dados e algoritmos/Índice.md",
-    "Bancos de dados/Banco de dados.md",
+    "Estrutura de dados e algoritmos/01_Stack (pilha).md",
+    "Estrutura de dados e algoritmos/00_Índice.md",
+    "Bancos de dados/01_Banco de dados.md",
     "Excalidraw/Bancos de dados/exemplificacao.md",
     "Excalidraw/Bancos de dados/dado_vs_informacao.md",
     "README.md",
-    "Estrutura de dados e algoritmos/Linked List (lista ligada).md",
-    "Estrutura de dados e algoritmos/Stack (pilha).md",
-    "Estrutura de dados e algoritmos/Dictionary (dicionário).md",
+    "Estrutura de dados e algoritmos/03_Linked List (lista ligada).md",
+    "Estrutura de dados e algoritmos/05_Dictionary (dicionário).md",
     "Excalidraw/Estrutura de dados e algoritmos/circular_linked_list.md",
     "Excalidraw/Estrutura de dados e algoritmos",
     "Excalidraw/Bancos de dados",
     "Excalidraw/Drawing 2026-09-17 17.18.28.excalidraw.md",
-    "Estrutura de dados e algoritmos/Sets (conjuntos).md",
-    "Estrutura de dados e algoritmos/Queue (fila).md",
-    "Estrutura de dados e algoritmos/HashTable (tabela hash).md",
+    "Estrutura de dados e algoritmos/04_Sets (conjuntos).md",
+    "Estrutura de dados e algoritmos/02_Queue (fila).md",
+    "Estrutura de dados e algoritmos/06_HashTable (tabela hash).md",
     "Estrutura de dados e algoritmos/_TOC_.md",
     "Bancos de dados",
     "Excalidraw/Estrutura de dados e algoritmos/deque.md",
