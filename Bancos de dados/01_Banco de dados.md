@@ -5,7 +5,8 @@
 O dado é a menor parte de uma banco de dados, um banco de dados é feito para armazenar dados. O dado é o elemento bruto geralmente proveniente de uma entrada do usuário ou de outros sistemas.
 
 A informação é um elemento já processado constituído de dados, sendo proveniente do processamento de dados.
-![Dado vs Informação](../Excalidraw/Bancos%20de%20dados/dado_vs_informacao.svg)
+
+![Dado vs Informação](dado_vs_informacao.svg)
 ## Banco de dados relacional vs Não relacional
 
 Os bancos de dados relacionais são conhecidos como bancos SQL. Isso se dá porque o SQL, que vem de Structured Query Language ou Linguagem de Consulta Estruturada, é a linguagem que se usa para se comunicar com bancos relacionais.
@@ -38,7 +39,8 @@ Como não se baseiam no modelo relacional, promovem alta disponibilidade e maior
 - Sistemas orientados a documentos;
 - SIstemas orientaods a colunas;
 - Sistemas baseados em grafos.
-![Exemplificação](../Excalidraw/Bancos%20de%20dados/exemplificacao.svg)
+
+![Exemplificação](exemplificacao.svg)
 ## Principais bancos relacionais
 
 - Oracle

@@ -197,12 +197,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8409eb95ed4e314c",
+  "active": "d8e6b08372a87024",
   "lastOpenFiles": [
-    "Excalidraw/Bancos de dados/dado_vs_informacao.md",
-    "Excalidraw/Bancos de dados/dado_vs_informacao.svg",
-    "Excalidraw/Bancos de dados/exemplificacao.md",
-    "Excalidraw/Bancos de dados/exemplificacao.svg",
+    "Excalidraw/bancos_de_dados/dado_vs_informacao.md",
+    "Excalidraw/bancos_de_dados/dado_vs_informacao.svg",
+    "Excalidraw/bancos_de_dados/exemplificacao.md",
+    "Excalidraw/bancos_de_dados/exemplificacao.svg",
     "Excalidraw/Estrutura de dados e algoritmos/stack_pilha_remove.md",
     "Excalidraw/Estrutura de dados e algoritmos/stack_pilha_remove.svg",
     "Excalidraw/Estrutura de dados e algoritmos/stack_pilha_add.md",
@@ -233,7 +233,7 @@
     "Estrutura de dados e algoritmos/00_Índice.md",
     "README.md",
     "Excalidraw/Estrutura de dados e algoritmos",
-    "Excalidraw/Bancos de dados",
+    "Excalidraw/bancos_de_dados",
     "Excalidraw/Drawing 2026-09-17 17.18.28.excalidraw.md",
     "Estrutura de dados e algoritmos/_TOC_.md",
     "Bancos de dados",
