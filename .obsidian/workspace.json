@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "03ad323ef6249446",
+        "id": "cadfbb93211c8b55",
         "type": "tabs",
         "children": [
           {
-            "id": "2c4056f2ed350f52",
+            "id": "03a8a17b580e70e1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Estrutura de dados e algoritmos/02_queue_fila.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "02_queue_fila"
             }
           }
         ]
@@ -193,8 +197,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2c4056f2ed350f52",
+  "active": "03a8a17b580e70e1",
   "lastOpenFiles": [
+    "Excalidraw/estrutura_de_dados_e_algoritmos/deque.md",
+    "Excalidraw/estrutura_de_dados_e_algoritmos/queue_fila.md",
     "Estrutura de dados e algoritmos/06_hashtable_tabela_hash.md",
     "Estrutura de dados e algoritmos/00_indice.md",
     "Estrutura de dados e algoritmos/05_dictionary_dicionario.md",
@@ -217,14 +223,12 @@
     "Excalidraw/estrutura_de_dados_e_algoritmos/queue_fila_remove.svg",
     "Excalidraw/estrutura_de_dados_e_algoritmos/queue_fila_add.md",
     "Excalidraw/estrutura_de_dados_e_algoritmos/queue_fila_add.svg",
-    "Excalidraw/estrutura_de_dados_e_algoritmos/queue_fila.md",
     "Excalidraw/estrutura_de_dados_e_algoritmos/queue_fila.svg",
     "Excalidraw/estrutura_de_dados_e_algoritmos/linked_list_remove.md",
     "Excalidraw/estrutura_de_dados_e_algoritmos/linked_list_remove.svg",
     "Excalidraw/estrutura_de_dados_e_algoritmos/linked_list.md",
     "Excalidraw/estrutura_de_dados_e_algoritmos/linked_list.svg",
     "Excalidraw/estrutura_de_dados_e_algoritmos/linked_list_add.md",
-    "Excalidraw/estrutura_de_dados_e_algoritmos/deque.md",
     "Excalidraw/estrutura_de_dados_e_algoritmos/circular_linked_list.md",
     "Excalidraw/estrutura_de_dados_e_algoritmos/doubly_linked_list.md",
     "Bancos de dados/02_modelagem_de_dados.md",

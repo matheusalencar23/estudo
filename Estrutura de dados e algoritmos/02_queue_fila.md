@@ -68,7 +68,10 @@ export class Queue {
 ## Deque
 
 A deque é um tipo especial de fila, é conhecido como fila de duas pontas ou *double-ended queue*. É um tipo de fila que permite que os elementos sejam adicionados ou removidos no início ou final da fila, mas nunca no meio.
-![[deque|100%]]
+
+![Deque](../Excalidraw/estrutura_de_dados_e_algoritmos/deque.svg)
+
+
 Exemplo de implementação usando JavaScript:
 ```js
 export class Deque {
