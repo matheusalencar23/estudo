@@ -18,5 +18,6 @@ Modelo mais alto nível, ou seja, o mais próximo do usuário. É desenvolvido c
 	- <u>Dados necessários</u>: código do produto, quantidade, código do cliente, código do vendedor.
 
 **Exemplo de modelo de entidade relacionamento (DER):**
-![[exemplo_der.png]]
+![Exemplo DER](../Images/bancos_de_dados/exemplo_der.png)
+
 
