@@ -1,3 +1,5 @@
+# Dictionary (dicionário)
+
 Um dicionário é uma estrutura de dados muito parecida com o conjunto (set), a principal diferença é que os conjuntos armazenam seus dados usando a estrutura [valor, valor], já os dicionários armazenam os dados na estrurura [chave, valor]. Essa chave pode ser usada para encontrar um elemento dentro da estrutura. Dicionários também são conhecidos como Mapas (map), tabela de símbolos e array associativo.
 Exemplo de implementação usando JavaScript:
 ```js

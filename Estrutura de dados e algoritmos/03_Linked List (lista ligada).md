@@ -1,3 +1,5 @@
+# Linked List (lista ligada)
+
 As listas ligadas armazenam uma coleção de elementos de forma sequencial, porém, diferente de arrays, as listas ligadas não tem seus elementos armazenados de forma contígua, ou seja, eles não são armazenados um ao lado do outro. Na lista ligada, cada elemento é constituído pelo elemento em sí e por uma referência que aponta para um outro nó, essa referência também pode ser nomeada como ponteiro ou ligação. Esse conjunto do elemento com o ponteiro é o nó (*node*).
 ![[linked_list|100%]]
 Uma das vantagens da lista ligada com relação aos arrays convencionais é que não é necessário realizar deslocamentos nos elementos quando ocorre a adição ou remoção de elementos, porém, pelo fato de usarmos ponteiros, quando é necessário acessar um elemento no meio da lista é preciso percorrer a lista partindo do primeiro elemento da lista, esse primeiro elemento da lista pode ser chamado de *head*.

@@ -1,3 +1,5 @@
+# HashTable (tabela hash)
+
 Uma tabela hash é uma impementação dos dicionários que usa hash. O hashing é uma metodologia para se encontrar um valor dentro de uma estrutura de dados o mais rápido possível. Para encontramos um valor em outras estruturas de dados é necessário iterar através dos elementos até que o valor seja encontrado. Quando se usa a função hash, a posição do valor já é conhecido, então podemos simplismente acessa-lo. Uma função hash é uma função que, dada uma chave, retorna o endereço em que o valor está na tabela.
 Exemplo de implementação usando JavaScript:
 ```js

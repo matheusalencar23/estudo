@@ -1,3 +1,5 @@
+# Índice
+
 Vamos abordar estrutura de dados mais comuns:
 - [[01_Stack (pilha)|Stack(pilha)]]
 - [[02_Queue (fila)|Queue (fila)]]

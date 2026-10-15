@@ -1,3 +1,5 @@
+# Sets (conjuntos)
+
 Um conjunto (set) é uma coleção não ordenada de itens, composta por elementos únicos, ou seja, que não podem se repetir. Essa estrutura de dados se baseia no conceito matemático dos conjuntos finitos. Em metemática, um conjunto é uma coleção de objetos distintos. Por exemplo, temos o conjunto de números naturais, que é composto pelo números inteiros maiores ou iguais a 0:
 $$
 N = \{0, 1, 2, 3, 4, 5, 6, ...\}
