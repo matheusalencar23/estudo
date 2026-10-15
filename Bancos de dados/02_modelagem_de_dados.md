@@ -11,13 +11,17 @@ Modelo mais alto nível, ou seja, o mais próximo do usuário. É desenvolvido c
 
 ¹*Diagramas UML - Unified Modeling Language (Linguagem de Modelagem Unificada)*
 
-**Exemplo de modelo conceitual textual:**
+### Exemplos de modelo conceitual textual
+
+#### Modelo conceitual textual
+
 - **Clientes**:
 	- <u>Dados necessários</u>: nome completo, tipo de pessoa (física ou juridica), endereço, bairro, cidade, estado, telefone, email, nome de contato.
 - **Pedido**:
 	- <u>Dados necessários</u>: código do produto, quantidade, código do cliente, código do vendedor.
 
-**Exemplo de modelo de entidade relacionamento (DER):**
+#### Modelo de entidade relacionamento (DER)
+
 ![Exemplo DER](../Images/bancos_de_dados/exemplo_der.png)
 
 
