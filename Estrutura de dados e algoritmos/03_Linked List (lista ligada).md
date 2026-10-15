@@ -1,12 +1,18 @@
 # Linked List (lista ligada)
 
 As listas ligadas armazenam uma coleção de elementos de forma sequencial, porém, diferente de arrays, as listas ligadas não tem seus elementos armazenados de forma contígua, ou seja, eles não são armazenados um ao lado do outro. Na lista ligada, cada elemento é constituído pelo elemento em sí e por uma referência que aponta para um outro nó, essa referência também pode ser nomeada como ponteiro ou ligação. Esse conjunto do elemento com o ponteiro é o nó (*node*).
-![[linked_list|100%]]
+
+![Likend List](../Excalidraw/estrutura_de_dados_e_algoritmos/linked_list.svg)
+
 Uma das vantagens da lista ligada com relação aos arrays convencionais é que não é necessário realizar deslocamentos nos elementos quando ocorre a adição ou remoção de elementos, porém, pelo fato de usarmos ponteiros, quando é necessário acessar um elemento no meio da lista é preciso percorrer a lista partindo do primeiro elemento da lista, esse primeiro elemento da lista pode ser chamado de *head*.
 Existem dois cenários na adição de elementos em uma lista ligada, um em que a lista está vazia e outro quando já existem elementos nela. Para a adicionar um elemento em uma lista vazia basta definir o apontamento do head para o elemento a ser adicionado. Caso a lista não esteja vazia precisamos manipular os ponteiros de forma a inserir o novo elemento, seja ele no início, meio o final da lista.
-![[linked_list_add|100%]]
+
+![Adição na Linked List](../Excalidraw/estrutura_de_dados_e_algoritmos/linked_list_add.svg)
+
 Para removermos elementos das listas ligadas também precisamos nos preocupar com os ponteiros.
-![[linked_list_remove|100%]]
+
+![Remoção da Linked List](../Excalidraw/estrutura_de_dados_e_algoritmos/linked_list_remove.svg)
+
 Exemplo de implementação usando JavaScript:
 ```js
 function defaultEquals(a, b) {
@@ -158,7 +164,9 @@ Existem algumas variações de listas ligadas, por exemplo, listas duplamente li
 ## Doubly Linked List (listas duplamente ligadas)
 
 A diferença desse tipo de lista para as listas ligadas convencionais é que os nós dessa coleção tem uma refereência tanto para o próximo elemento da lista como para o anterior.
-![[doubly_linked_list|100%]]
+
+![Doubly Linked List](../Excalidraw/estrutura_de_dados_e_algoritmos/doubly_linked_list.svg)
+
 Exemplo de implementação em JavaScript:
 ```js
 function defaultEquals(a, b) {
@@ -336,8 +344,10 @@ export default class DoublyLinkedList {
 
 ## Circular Linked List (listas ligadas circulares)
 A diferença das listas ligadas circulares é que os ponteiros nunca apontam para um elemento vazio ou nulo, para o caso da lista ligada simples, o ponteiro para o próximo item do último nó aponta para o primeiro item da lista. No caso de uma lista duplamente ligada circular temos o ponteiro para o anterior do primeiro nó apontando para o último item da lista também.
-![[circular_linked_list|100%]]Exemplo de implementação em JavaScript:
 
+![Circular Linked List](../Excalidraw/estrutura_de_dados_e_algoritmos/circular_linked_list.svg)
+
+Exemplo de implementação em JavaScript:
 ```js
 function defaultEquals(a, b) {
   return a === b;

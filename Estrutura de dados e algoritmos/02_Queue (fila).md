@@ -1,11 +1,17 @@
 # Queue (fila)
 
 Filas seguem o princípio **FIFO** (First In First Out), ou seja, o primeiro a entrar é o primeiro a sair.
-![[queue_fila_add|100%]]
+
+![Adição na Queue](../Excalidraw/estrutura_de_dados_e_algoritmos/queue_fila_add.svg)
+
 Sempre que adicionamos um elemento na fila ele é posicionado logo em seguida do último elemento adicionado. Para uma fila vazia, o primeiro elemento é também o último da fila.  Não podemos adicionar um elemento antes de qualquer elemento que já esteja na fila, somente no final.
-![[queue_fila_remove|100%]]
+
+![Remoção da Queue](../Excalidraw/estrutura_de_dados_e_algoritmos/queue_fila_remove.svg)
+
 Na remoção de itens da fila os itens são removdiso sempre pela frente da fila, ou seja, os primeiros itens adicionados são removidos primeiro. Não conseguimos remover itens do meio ou no final da fila.
-![[queue_fila|100%]]
+
+![Queue](../Excalidraw/estrutura_de_dados_e_algoritmos/queue_fila.svg)
+
 Exemplo de implementação usando JavaScript:
 ```js
 export class Queue {
