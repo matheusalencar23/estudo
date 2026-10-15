@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "74eacb5dcec9c730",
+        "id": "03ad323ef6249446",
         "type": "tabs",
         "children": [
           {
-            "id": "09e9eba1bb29b94c",
+            "id": "2c4056f2ed350f52",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estrutura de dados e algoritmos/03_Linked List (lista ligada).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "03_Linked List (lista ligada)"
+              "title": "Nova aba"
             }
           }
         ]
@@ -197,13 +193,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "09e9eba1bb29b94c",
+  "active": "2c4056f2ed350f52",
   "lastOpenFiles": [
-    "Estrutura de dados e algoritmos/02_Queue (fila).md",
-    "Estrutura de dados e algoritmos/01_Stack (pilha).md",
+    "Estrutura de dados e algoritmos/06_hashtable_tabela_hash.md",
+    "Estrutura de dados e algoritmos/00_indice.md",
+    "Estrutura de dados e algoritmos/05_dictionary_dicionario.md",
+    "Estrutura de dados e algoritmos/04_sets_conjuntos.md",
+    "Estrutura de dados e algoritmos/03_linked_list_lista_ligada.md",
+    "Estrutura de dados e algoritmos/02_queue_fila.md",
+    "Estrutura de dados e algoritmos/01_stack_pilha.md",
     "Excalidraw/estrutura_de_dados_e_algoritmos/stack_pilha.md",
     "Excalidraw/estrutura_de_dados_e_algoritmos/stack_pilha.svg",
-    "Estrutura de dados e algoritmos/00_Índice.md",
     "Bancos de dados/01_Banco de dados.md",
     "Excalidraw/bancos_de_dados/dado_vs_informacao.md",
     "Excalidraw/bancos_de_dados/dado_vs_informacao.svg",
@@ -228,10 +228,6 @@
     "Excalidraw/estrutura_de_dados_e_algoritmos/circular_linked_list.md",
     "Excalidraw/estrutura_de_dados_e_algoritmos/doubly_linked_list.md",
     "Bancos de dados/02_Modelagem de dados.md",
-    "Estrutura de dados e algoritmos/05_Dictionary (dicionário).md",
-    "Estrutura de dados e algoritmos/03_Linked List (lista ligada).md",
-    "Estrutura de dados e algoritmos/06_HashTable (tabela hash).md",
-    "Estrutura de dados e algoritmos/04_Sets (conjuntos).md",
     "README.md",
     "Excalidraw/estrutura_de_dados_e_algoritmos",
     "Excalidraw/bancos_de_dados",
