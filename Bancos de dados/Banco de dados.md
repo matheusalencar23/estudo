@@ -42,3 +42,31 @@ Como não se baseiam no modelo relacional, promovem alta disponibilidade e maior
 ![[exemplificacao|100%]]
 ## Principais bancos relacionais
 
+- Oracle
+- Microsoft SQLServer
+- PostgreSQL
+- MySQL
+- MariaDB
+- SQLite
+- H2
+- DB2
+
+## Principais bancos não relacionais
+
+- MongoDB
+- Redis
+- Cassandra
+- HBase
+- CouchDB
+- Neo4J
+- RavenDB
+- MenBase
+- Oracle Coherence
+- Apache Solr
+- Riak
+- FireBase
+
+
+
+
+
