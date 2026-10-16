@@ -6,31 +6,10 @@ Um modelo de dados não informa quais dados estão armazenados e sim quais e que
 Esses modelos são baseados em três níveis: <u>Conceitual</u>, <u>Lógico</u> e <u>Físico</u>.
 ## Modelo conceitual
 
-Modelo mais alto nível, ou seja, o mais próximo do usuário. É desenvolvido com alto nível de abstração, a partir dos requisitos do sistema. Podendo ser elaborado de forma textual ou por meio dos diagramas: Diagrama de Entidade e Relacionamento e/ou Diagrama de Classes¹.
-
-¹*Diagramas UML - Unified Modeling Language (Linguagem de Modelagem Unificada)*
-### Exemplos de modelo conceitual
-#### Modelo conceitual textual
-- **Clientes**:
-	- <u>Dados necessários</u>: nome completo, tipo de pessoa (física ou juridica), endereço, bairro, cidade, estado, telefone, email, nome de contato.
-- **Pedido**:
-	- <u>Dados necessários</u>: código do produto, quantidade, código do cliente, código do vendedor.
-#### Diagrama de entidade relacionamento (DER)
-![Exemplo DER](../Images/bancos_de_dados/exemplo_der.png)
-#### Diagrama de classes
-![Exemplo Diagrama de Classes](../Images/bancos_de_dados/exemplo_diagrama_de_classes.png)
-
+Modelo mais alto nível, ou seja, o mais próximo do usuário. É desenvolvido com alto nível de abstração, a partir dos requisitos do sistema. Podendo ser elaborado de forma textual ou por meio dos diagramas: Diagrama de Entidade e Relacionamento e/ou Diagrama de Classes.
 ## Modelo lógico
 
-Descreve como os dados serão armazenados e seus relacionamentos, além de definir qual tecnologia vai ser usada para a armazenagem de dados.
-
-Alguns exemplos de representações do modelo lógico:
-![Exemplo de modelo lógico 1](../Images/bancos_de_dados/modelo_logico_1.png)
-
-![Exemplo de modelo lógico 2](../Images/bancos_de_dados/modelo_logico_2.png)
-
-![Exemplo de modelo lógico 3](../Images/bancos_de_dados/modelo_logico_3.png)
-
+Descreve como os dados serão armazenados e seus relacionamentos, além de definir qual tecnologia vai ser usada para a armazenagem de dados. Por exemplo, se vai ser usado bancos de dados relacionais ou não relacionais.
 ## Modelo físico
 
 Também pode ser chamado de modelo de implementação e descreve por meio de alguma linguagem (geralmente SQL) como será feita a armazenagem do banco. Neste nível, é definido qual SGBD será utilizado, levando em consideração o modelo lógico.
@@ -39,3 +18,18 @@ Também pode ser chamado de modelo de implementação e descreve por meio de alg
 - **Entidade**: é o objeto ou evento do mundo real sobre o qual desejamos manter registros em um banco de dados, podem ser nossas tabelas. Exemplos: Aluno, Carro, Produto, Vendedor, Venda, etc.
 - **Atributo**: propriedades ou características que descrevem uma entidade, seriam as colunas/campos das tabelas. Exemplo: Para a entidade produto temos os atributos código, descrição e preço; para a entidade produto temos os atributos código e descrição.
 - **Atributo chave**: também conhecido como chave primária, *primary key* ou *pk*, é um campo que possui valor único, ou seja, sem repetição, em todo o conjunto de dados da entidade. Ele é usado para identificar unicamente cada registro da tabela. Exemplos: Na entidade produtos temos o código do produto.
+- **Relacionamentos**: normalmente as entidades estão associadas com outras entidades. Esses relacionamentos geram uma descrição muito mais rica ao modelo. Os relacionamentos podem acontecer entre uma, duas ou várias entidades. Exemplos: Uma entidade produto  tem uma relação com a entidade tipo de produto, pois um produto é um tipo de produto.
+- **Chave estrangeira**: também conhecida como *foreign key* ou *fk*, é um atributo presente em uma entidade que indica um relacionamento e representa a chave primária de uma outra entidade. Exemplos: Uma entidade produto que tem uma relação com a entidade tipo de produto, possui um atributo que representa qual tipo de produto ele é.
+- **Grau de relacionamento**: indica a quantidade de entidades ligadas a um relacionamento. Os principais graus de relacionamentos são o <u>unário</u>, <u>binário</u> e <u>ternário</u>.
+	- **Unário**: chamado de grau 1, indica que uma entidade se ralaciona com ela mesma. Exemplos: Uma entidade funcionário que gerencia outro funcionário ou uma entidade pessoa que casa com outra pessoa.
+	- **Binário**: chamado de grau 2, indica que uma entidade  se ralaciona com outra entidade, sendo o tipo mais comum de relacionamento. Exemplos: A entidade vendedor vende a entidade Produto ou a entidade Aluno cursa a entidade Disciplina.
+	- **Ternário**: chamado de grau 3, indica que três entidades se relacionam por um mesmo relacionamento. Exemplo: A entidade Cliente faz um pedido a entidade Vendedor e realiza o pagamento desse pedido com a entidade Tipo de Pagamento.
+- **Cardinalidade (Máxima)**: define a quantidade máxima de ocorrências de uma entidade que poderá estar associada a outra entidade. Exemplos: Um vendedor pode vender apenas um tipo de produto? Ou dois? Ou três? Um produto pode ser vendido por apenas um vendedor? Ou por todos?
+	- **Um-Para-Um/One-to-One (1:1)**: indica que uma ocorrência da entidade A pode se relacionar exclusivamente com uma ocorrência da entidade B e vice versa. Exemplo: Um vendedor ocupa um único escritório e um escritório pode ser ocupado por um único vendedor.
+	- **Um-Para-Muitos/One-to-Many (1:n)**: indica que uma ocorrência da entidade A pode se relacionar com várias ocorrências da entidade B, porém o inverso não é permitido. Exemplo: Um vendedor atende muitos clientes, porém cada cliente é atendido por apenas um vendedor específico.
+	- **Muitos-Para-Muitos/Many-to-Many (n:m)**: indica que uma ocorrência da entidade A pode se relacionar com várias ocorrências da entidade B e vice versa. Exemplo: Um vendedor atende muitos clientes e um cliente pode ser atendido por diversos vendedores.
+	  Na prática, o relacionamento n:m é dividido em duas relações 1:n, gerando assim uma nova entidade para representar esse relacionamento.
+- **Cardinalidade (Mínima)**: define a quantidade mínima de ocorrências de uma entidade que precisa estar associada a outra entidade, em caráter obrigatório. São consideradas como cardinalidades mínimas: 0 e 1. Podem ser apresentadas por: 0..1, 1..1, 0..n, 1..n, 0..\*, 1..\*, etc. Exemplo: Um vendedor ocupa um único escritório, porém é obrigatório que ele tenha um escritório (lê-se no mínimo um e no máximo um) ou um escritório pode ser ocupado por um único vendedor, porém pode ser que a sala esteja vazia, ainda sem vendedor (lê-se no mínimo zero e no máximo um).
+- **Formas de representação**: podemos encontrar uma variedade de representações gráficas para o modelo entidade relacionamento, sendo os mais comuns o *clássico* e o *pé de galinha*.
+![Dado vs Informação](../Excalidraw/bancos_de_dados/classico_pe_de_galinha.svg)
+  

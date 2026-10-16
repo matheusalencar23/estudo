@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ba142ff3ccca76b5",
+        "id": "e8d3efe3d93c8320",
         "type": "tabs",
         "children": [
           {
-            "id": "59319079fa4b13dd",
+            "id": "b271c390c803b2ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -197,20 +197,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "59319079fa4b13dd",
+  "active": "b271c390c803b2ec",
   "lastOpenFiles": [
-    "Sem título 1.md",
+    "Bancos de dados/01_banco_de_dados.md",
     "Bancos de dados/02_modelagem_de_dados.md",
+    "Excalidraw/bancos_de_dados/classico_pe_de_galinha.md",
+    "Excalidraw/bancos_de_dados/classico_pe_de_galinha.svg",
+    "Excalidraw/bancos_de_dados/dado_vs_informacao.md",
+    "Excalidraw/bancos_de_dados/exemplificacao.md",
+    "Excalidraw/bancos_de_dados/Sem título.canvas",
     "Sem título.md",
+    "Sem título 1.md",
     "Images/bancos_de_dados/modelo_logico_3.png",
     "Images/bancos_de_dados/modelo_logico_2.png",
     "Images/bancos_de_dados/modelo_logico_1.png",
     "Excalidraw/bancos_de_dados/exemplo_der.md",
     "Excalidraw/bancos_de_dados/exemplo_der.svg",
-    "Excalidraw/bancos_de_dados/dado_vs_informacao.md",
     "Excalidraw/bancos_de_dados/Drawing 2026-10-16 14.20.47.excalidraw.md",
-    "Bancos de dados/01_banco_de_dados.md",
-    "Excalidraw/bancos_de_dados/exemplificacao.md",
     "Excalidraw/Libraries/local-library.excalidrawlib",
     "Excalidraw/Libraries",
     "UML-ER-library.excalidrawlib",
@@ -235,13 +238,10 @@
     "Excalidraw/estrutura_de_dados_e_algoritmos/stack_pilha.md",
     "Excalidraw/estrutura_de_dados_e_algoritmos/stack_pilha.svg",
     "Excalidraw/bancos_de_dados/dado_vs_informacao.svg",
-    "Excalidraw/bancos_de_dados/exemplificacao.svg",
     "Excalidraw/estrutura_de_dados_e_algoritmos/stack_pilha_remove.md",
     "Excalidraw/estrutura_de_dados_e_algoritmos/stack_pilha_add.md",
     "Excalidraw/estrutura_de_dados_e_algoritmos/queue_fila_remove.md",
     "Excalidraw/estrutura_de_dados_e_algoritmos/queue_fila_add.md",
-    "Excalidraw/estrutura_de_dados_e_algoritmos/linked_list_remove.md",
-    "Excalidraw/estrutura_de_dados_e_algoritmos/linked_list.md",
     "Excalidraw/estrutura_de_dados_e_algoritmos",
     "Excalidraw/bancos_de_dados",
     "Bancos de dados"
