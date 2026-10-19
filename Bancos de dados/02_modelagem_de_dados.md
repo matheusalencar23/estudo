@@ -38,3 +38,27 @@ O modelo físico é a implementação concreta do modelo lógico em um SGBD espe
 É o processo formal e passo a passo que examina o documento descritivo em busca de definir as entidades, atributos, relacionamentos, chaves primárias e chaves estrangeiras do banco de dados modelado. Esse processo utiliza regras bem estabalacidas conhecidas como <u>Formas Normais</u>. Seu principal objetivo é evitar ou pelo menos amenizar anomalias e inconsistências que podem ocorrer durante a inclusão, exclusão, alteração e consulta de registros em um banco de dados. Um banco de dados normalizado dentro dos padrões reduz o trabalho de manutenção e ajuda a evitar desperdício de espaço de armazenamento, dentre outros benefícios.
 ### Primeira Forma Normal (1FN)
 
+Uma entidade estará na primeira forma normal se todos os campos forem atômicos (simples) e não multivalorados (com múltiplos valores).
+Por exemplo, na tabela cliente:
+
+| Código do cliente | Nome  | Telefone               | Endereço                          |
+| ----------------- | ----- | ---------------------- | --------------------------------- |
+| C001              | José  | 9563-6352<br>9847-8596 | Rua Seis, 85, Morumbi, 12536-965  |
+| C002              | Maria | 3265-8596              | Rua Onze, 64, Moema, 65985-693    |
+| C003              | João  | 8548-8956<br>9598-6301 | Praça Ramos, Liberdade, 68858-633 |
+O campo de telefone é multivalorados, pois temos mais de um telefone em um mesmo campo. Além disso, o campos endereço também é multivalorado porque possui valores diferentes no mesmo campo. Para corrigir esses casos podemos converter o campo endereço em três campos diferentes como rua, bairro e CEP; além de criar uma nova tabela para registrar os telefones:
+
+| Código do cliente | Nome  | Rua          | Bairro    | CEP       |
+| ----------------- | ----- | ------------ | --------- | --------- |
+| C001              | José  | Rua Seis, 85 | Morumbi   | 12536-965 |
+| C002              | Maria | Rua Onze, 64 | Moema     | 65985-693 |
+| C003              | João  | Praça Ramos  | Liberdade | 68858-633 |
+
+| Código do cliente | Telefone  |
+| ----------------- | --------- |
+| C001              | 9563-6352 |
+| C001              | 9847-8596 |
+| C002              | 3265-8596 |
+| C003              | 8548-8956 |
+| C003              | 9598-6301 |
+### Segunda Forma Normal (2FN)
