@@ -118,9 +118,42 @@ O campo subtotal depende dos campos quantidade e valor unitário. Para resolver 
 
 ### Outras Formas Normais
 
+Um modelo de dados é considerado normalizado após a aplicação das 3 Formas Normais, porém, em alguns cenários, dependendo da complexidade do modelo, pode ser necessário a aplicação da 4FN e 5FN, mesmo sendo algo raro de se acontecer.
+#### Quarta Forma Normal (4FN)
 
+Uma entidade estará an 4FN se estiver na 3FN e na tabela não contiver múltiplas entradas multivaloradas, ou seja, a presença de uma ou mais linhas em uma tabela implica na presença de uma ou mais linhas na mesma tabela.
 
+Por exemplo, considerando uma tabela que armazene informações sobre disciplinas e os professores das mesmas com sua titulação:
 
+| Professor | Disciplina                                | Titulação    |
+| --------- | ----------------------------------------- | ------------ |
+| Murilo    | Arquitetura e Organização de Computadores | Especialista |
+| Murilo    | Inteligência Artificial                   | Especialista |
+| João      | Lógica de Programação                     | Doutor       |
+| João      | Sistemas Microcontrolados                 | Doutor       |
 
+Não tem necessidade de termos a coluna titualação dentro dessa tabela, então podemos migrar para:
 
-A aplicação das formas normais devem seguir uma sequência. Devemos aplicar a primeira forma normal para todas as tabelas do banco de dados. Em seguida fazemos o mesmo para a segunda forma normal e assim sucessivamente.
+| Professor | Disciplina                                |
+| --------- | ----------------------------------------- |
+| Murilo    | Arquitetura e Organização de Computadores |
+| Murilo    | Inteligência Artificial                   |
+| João      | Lógica de Programação                     |
+| João      | Sistemas Microcontrolados                 |
+
+| Professor | Titulação    |
+| --------- | ------------ |
+| Murilo    | Especialista |
+| João      | Doutor       |
+#### Quinta Forma Normal (5FN)
+
+Uma entidade estará na 5FN se já estiver na 4FN e quando um atributo está em outra tabela sem a necessidade de estar na tabela pesquisada e pode ser removido sem a perda de nenhuma informação.
+
+Por exemplo, considerando que temos 3 tabelas:
+- Produtos, com os campos ID do Produto (PK), Descrição, ID do Fornecedor (FK)  e Quantidade
+- Fornecedor, com ID do Fornecedor (PK) e Nome
+- Nota Fiscal, com ID da Nota, ID do Vendedor (FK), ID do Produto (FK) e ID do Fornecedor (FK)
+
+Considerando que cada Fornecedor só vende um Produto, não é necessário termos o ID do Produto e o ID do Fornecedor na tabela Nota Fiscal, podemos deixar só o ID do Fornecedor e a partir dele será possível pegar o ID do Produto.
+
+**Observação:** A aplicação das formas normais devem seguir uma sequência. Devemos aplicar a primeira forma normal para todas as tabelas do banco de dados. Em seguida fazemos o mesmo para a segunda forma normal e assim sucessivamente.
