@@ -6,13 +6,13 @@ Um modelo de dados não informa quais dados estão armazenados e sim quais e que
 Esses modelos são baseados em três níveis: <u>Conceitual</u>, <u>Lógico</u> e <u>Físico</u>.
 ## Modelo conceitual
 
-Modelo mais alto nível, ou seja, o mais próximo do usuário. É desenvolvido com alto nível de abstração, a partir dos requisitos do sistema. Podendo ser elaborado de forma textual ou por meio dos diagramas: Diagrama de Entidade e Relacionamento e/ou Diagrama de Classes.
+Modelo mais alto nível, ou seja, o mais próximo do usuário. É desenvolvido com alto nível de abstração, a partir dos requisitos do sistema. Representa os conceitos e relacionamentos essenciais em um domínio de negócios, sem se preocupar com detalhes de implementação, descrevendo de forma abstrata as entidades, seus atributos e os relacionamentos entre elas. Diagramas de Entidade-Relacionamento (ER) são frequentemente usados para representar o modelo conceitual.
 ## Modelo lógico
 
-Descreve como os dados serão armazenados e seus relacionamentos, além de definir qual tecnologia vai ser usada para a armazenagem de dados. Por exemplo, se vai ser usado bancos de dados relacionais ou não relacionais.
+ O modelo lógico converte o modelo conceitual em uma representação mais próxima da implementação em um sistema de gerenciamento de banco de dados (SGBD). Foca em detalhes de implementação, como tabelas, colunas, chaves primárias e estrangeiras, índices, etc. Diagramas de Modelo Relacional são frequentemente usados para representar o modelo lógico em sistemas de banco de dados relacionais.
 ## Modelo físico
 
-Também pode ser chamado de modelo de implementação e descreve por meio de alguma linguagem (geralmente SQL) como será feita a armazenagem do banco. Neste nível, é definido qual SGBD será utilizado, levando em consideração o modelo lógico.
+O modelo físico é a implementação concreta do modelo lógico em um SGBD específico. Considera detalhes de armazenamento, otimizações de desempenho, tipos de dados específicos do SGBD, índices físicos, etc. Usa comandos SQL específicas para a criação de tabelas, índices, restrições, entre outros, são utilizadas para definir o modelo físico.
 ## Outros conceito essenciais
 
 - **Entidade**: é o objeto ou evento do mundo real sobre o qual desejamos manter registros em um banco de dados, podem ser nossas tabelas. Exemplos: Aluno, Carro, Produto, Vendedor, Venda, etc.
@@ -31,5 +31,10 @@ Também pode ser chamado de modelo de implementação e descreve por meio de alg
 	  Na prática, o relacionamento n:m é dividido em duas relações 1:n, gerando assim uma nova entidade para representar esse relacionamento.
 - **Cardinalidade (Mínima)**: define a quantidade mínima de ocorrências de uma entidade que precisa estar associada a outra entidade, em caráter obrigatório. São consideradas como cardinalidades mínimas: 0 e 1. Podem ser apresentadas por: 0..1, 1..1, 0..n, 1..n, 0..\*, 1..\*, etc. Exemplo: Um vendedor ocupa um único escritório, porém é obrigatório que ele tenha um escritório (lê-se no mínimo um e no máximo um) ou um escritório pode ser ocupado por um único vendedor, porém pode ser que a sala esteja vazia, ainda sem vendedor (lê-se no mínimo zero e no máximo um).
 - **Formas de representação**: podemos encontrar uma variedade de representações gráficas para o modelo entidade relacionamento, sendo os mais comuns o *clássico* e o *pé de galinha*.
-![Dado vs Informação](../Excalidraw/bancos_de_dados/classico_pe_de_galinha.svg)
+![Dado vs Informação|700](../Excalidraw/bancos_de_dados/classico_pe_de_galinha.svg)
   
+## Normalização de Dados
+
+É o processo formal e passo a passo que examina o documento descritivo em busca de definir as entidades, atributos, relacionamentos, chaves primárias e chaves estrangeiras do banco de dados modelado. Esse processo utiliza regras bem estabalacidas conhecidas como <u>Formas Normais</u>. Seu principal objetivo é evitar ou pelo menos amenizar anomalias e inconsistências que podem ocorrer durante a inclusão, exclusão, alteração e consulta de registros em um banco de dados. Um banco de dados normalizado dentro dos padrões reduz o trabalho de manutenção e ajuda a evitar desperdício de espaço de armazenamento, dentre outros benefícios.
+### Primeira Forma Normal (1FN)
+
