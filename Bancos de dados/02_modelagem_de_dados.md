@@ -39,6 +39,7 @@ O modelo físico é a implementação concreta do modelo lógico em um SGBD espe
 ### Primeira Forma Normal (1FN)
 
 Uma entidade estará na primeira forma normal se todos os campos forem atômicos (simples) e não multivalorados (com múltiplos valores).
+
 Por exemplo, na tabela cliente:
 
 | Código do cliente | Nome  | Telefone               | Endereço                          |
@@ -47,7 +48,7 @@ Por exemplo, na tabela cliente:
 | C002              | Maria | 3265-8596              | Rua Onze, 64, Moema, 65985-693    |
 | C003              | João  | 8548-8956<br>9598-6301 | Praça Ramos, Liberdade, 68858-633 |
 
-O campo de telefone é multivalorados, pois temos mais de um telefone em um mesmo campo. Além disso, o campos endereço também é multivalorado porque possui valores diferentes no mesmo campo. Para corrigir esses casos podemos converter o campo endereço em três campos diferentes como rua, bairro e CEP; além de criar uma nova tabela para registrar os telefones:
+O campo de telefone é multivalorados, pois temos mais de um telefone em um mesmo campo. Além disso, o campo endereço também é multivalorado, porque possui valores diferentes no mesmo campo. Para corrigir esses casos podemos converter o campo endereço em três campos diferentes como rua, bairro e CEP; além de criar uma nova tabela para registrar os telefones:
 
 | Código do cliente | Nome  | Rua          | Bairro    | CEP       |
 | ----------------- | ----- | ------------ | --------- | --------- |
@@ -62,4 +63,64 @@ O campo de telefone é multivalorados, pois temos mais de um telefone em um mesm
 | C002              | 3265-8596 |
 | C003              | 8548-8956 |
 | C003              | 9598-6301 |
+
+Um dos principais problemas resolvidos pela 1FN é a repetição (redundância) e desorganização de dados.
 ### Segunda Forma Normal (2FN)
+
+Uma entidade estará na 2FN se ela já estiver na 1FN e todos os atributos não chave forem totalmente dependentes da chave primária.
+
+Por exemplo, na tabela de pedidos a seguir:
+
+| Número do pedido | Código do produto | Produto              | Quantidade | Valor unitário | Subtotal |
+| ---------------- | ----------------- | -------------------- | ---------- | -------------- | -------- |
+| 1005             | 1-934             | Impressora laser     | 5          | 1.500,00       | 7500,00  |
+| 1006             | 1-956             | Impressora desjet    | 3          | 350,00         | 1050,00  |
+| 1007             | 1-923             | Impressora matricial | 1          | 190,00         | 190,00   |
+| 1008             | 1-908             | Impressora mobile    | 6          | 980,00         | 5880,00  |
+
+Considerando que a chave primária da tabela é o número do pedido, o nome do produto não depende dessa chave, portanto deveria estar em uma tabela separada:
+
+| Número do pedido | Código do produto | Quantidade | Valor unitário | Subtotal |
+| ---------------- | ----------------- | ---------- | -------------- | -------- |
+| 1005             | 1-934             | 5          | 1.500,00       | 7500,00  |
+| 1006             | 1-956             | 3          | 350,00         | 1050,00  |
+| 1007             | 1-923             | 1          | 190,00         | 190,00   |
+| 1008             | 1-908             | 6          | 980,00         | 5880,00  |
+
+| Código do produto | Produto              |
+| ----------------- | -------------------- |
+| 1-934             | Impressora laser     |
+| 1-956             | Impressora desjet    |
+| 1-923             | Impressora matricial |
+| 1-908             | Impressora mobile    |
+
+### Terceira Formal Normal (3FN)
+
+Uma tabela estará na 3FN se já estiver na 2FN e se nenhuma coluna não-chave depender de uma outra coluna não-chave. Ou seja, na 3FN temos que eliminar os campos que podem ser obtidos pela equação de outros campos da mesma tabela.
+
+Por exemplo, na tabela de pedidos:
+
+| Número do pedido | Código do produto | Quantidade | Valor unitário | Subtotal |
+| ---------------- | ----------------- | ---------- | -------------- | -------- |
+| 1005             | 1-934             | 5          | 1.500,00       | 7500,00  |
+| 1006             | 1-956             | 3          | 350,00         | 1050,00  |
+| 1007             | 1-923             | 1          | 190,00         | 190,00   |
+| 1008             | 1-908             | 6          | 980,00         | 5880,00  |
+
+O campo subtotal depende dos campos quantidade e valor unitário. Para resolver isso podemos remover a coluna subtotal:
+
+| Número do pedido | Código do produto | Quantidade | Valor unitário |
+| ---------------- | ----------------- | ---------- | -------------- |
+| 1005             | 1-934             | 5          | 1.500,00       |
+| 1006             | 1-956             | 3          | 350,00         |
+| 1007             | 1-923             | 1          | 190,00         |
+| 1008             | 1-908             | 6          | 980,00         |
+
+
+
+
+
+
+
+
+A aplicação das formas normais devem seguir uma sequência. Devemos aplicar a primeira forma normal para todas as tabelas do banco de dados. Em seguida fazemos o mesmo para a segunda forma normal e assim sucessivamente.
