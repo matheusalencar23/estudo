@@ -42,7 +42,7 @@ Uma entidade estará na primeira forma normal se todos os campos forem atômicos
 Por exemplo, na tabela cliente:
 
 | Código do cliente | Nome  | Telefone               | Endereço                          |
-|:----------------- |:----- |:---------------------- |:--------------------------------- |
+| :---------------- | :---- | :--------------------- | :-------------------------------- |
 | C001              | José  | 9563-6352<br>9847-8596 | Rua Seis, 85, Morumbi, 12536-965  |
 | C002              | Maria | 3265-8596              | Rua Onze, 64, Moema, 65985-693    |
 | C003              | João  | 8548-8956<br>9598-6301 | Praça Ramos, Liberdade, 68858-633 |
