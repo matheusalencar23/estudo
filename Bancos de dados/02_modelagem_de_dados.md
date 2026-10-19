@@ -116,7 +116,7 @@ O campo subtotal depende dos campos quantidade e valor unitário. Para resolver 
 | 1007             | 1-923             | 1          | 190,00         |
 | 1008             | 1-908             | 6          | 980,00         |
 
-
+### Outras Formas Normais
 
 
 
