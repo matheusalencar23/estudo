@@ -159,6 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Bancos de dados/02_modelagem_de_dados.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -182,7 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 355.1796875
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,7 +195,9 @@
       "command-palette:Abrir paleta de comandos": false,
       "bases:Criar nova base": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "markdown-table-editor:Open Markdown Table Editor": false
     }
   },
   "active": "56b37552884d838c",
