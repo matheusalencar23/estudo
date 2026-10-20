@@ -51,6 +51,10 @@ export default class LinkedList {
     this.#head = null;
     this.#equalsFn = equalsFn;
   }
+  
+  getHead() {
+    return this.#head;
+  }
 
   push(element) {
     const node = new Node(element);

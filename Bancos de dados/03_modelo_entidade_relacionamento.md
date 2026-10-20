@@ -1,6 +1,7 @@
 # Modelo Entidade Relacionamento (MER)
 
 Abaixo temos um exemplo de uam modelagem para o fluxo de emissão de nota fiscal:
+
 ![Exemplo de modelo entidade relacionamento para um fluxo de emissão de nota fiscal](../Imagens/bancos_de_dados/der_nota_fiscal.png)
 
 Algumas conclusões importantes que podemos tirar do diagrama:
