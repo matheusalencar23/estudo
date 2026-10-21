@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ae337835efe3df7e",
+        "id": "a06ac31a97e79773",
         "type": "tabs",
         "children": [
           {
-            "id": "1505a161a85e738e",
+            "id": "025f6298b44325b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estrutura de dados e algoritmos/06_hashtable_tabela_hash.md",
+                "file": "Estrutura de dados e algoritmos/07_tree_arvore.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06_hashtable_tabela_hash"
+              "title": "07_tree_arvore"
             }
           }
         ]
@@ -198,11 +198,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1505a161a85e738e",
+  "active": "025f6298b44325b9",
   "lastOpenFiles": [
+    "Excalidraw/estrutura_de_dados_e_algoritmos/tree_arvore.md",
+    "Excalidraw/estrutura_de_dados_e_algoritmos/tree_arvore.svg",
+    "Estrutura de dados e algoritmos/07_tree_arvore.md",
+    "Estrutura de dados e algoritmos/06_hashtable_tabela_hash.md",
+    "Excalidraw/estrutura_de_dados_e_algoritmos/stack_pilha_remove.md",
     "Excalidraw/estrutura_de_dados_e_algoritmos/hash_table_linear_probing.md",
     "Sem título.md",
-    "Estrutura de dados e algoritmos/06_hashtable_tabela_hash.md",
     "Excalidraw/estrutura_de_dados_e_algoritmos/hash_table_linear_probing.svg",
     "Excalidraw/estrutura_de_dados_e_algoritmos/hash_table_separate_chaining.md",
     "Estrutura de dados e algoritmos/03_linked_list_lista_ligada.md",
@@ -227,7 +231,6 @@
     "Sem título 1.md",
     "Images/bancos_de_dados/modelo_logico_3.png",
     "Images/bancos_de_dados/modelo_logico_2.png",
-    "Images/bancos_de_dados/modelo_logico_1.png",
     "Excalidraw/bancos_de_dados/exemplo_der.md",
     "Excalidraw/bancos_de_dados/Drawing 2026-10-16 14.20.47.excalidraw.md",
     "Excalidraw/Libraries/local-library.excalidrawlib",
@@ -242,10 +245,6 @@
     "Estrutura de dados e algoritmos/02_queue_fila.md",
     "Excalidraw/estrutura_de_dados_e_algoritmos/deque.md",
     "Excalidraw/estrutura_de_dados_e_algoritmos/queue_fila.md",
-    "Estrutura de dados e algoritmos/00_indice.md",
-    "Estrutura de dados e algoritmos/04_sets_conjuntos.md",
-    "Estrutura de dados e algoritmos/01_stack_pilha.md",
-    "Excalidraw/estrutura_de_dados_e_algoritmos/stack_pilha_remove.md",
     "Excalidraw/estrutura_de_dados_e_algoritmos"
   ]
 }
