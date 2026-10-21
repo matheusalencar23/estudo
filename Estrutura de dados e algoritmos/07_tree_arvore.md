@@ -14,3 +14,22 @@ Por fim, uma árvore pode ser dividida em níveis, sendo que o nó raiz está no
 
 ![Ilustração de uma estrutura de dados Tree](../Excalidraw/estrutura_de_dados_e_algoritmos/tree_arvore.svg)
 
+### Árvore binária
+
+Uma árvore binária é composta por nós que possuem no máximo dois filhos: um à esquerda e outro à direita.
+
+Uma árvore binária de busca ou Binary Search Tree (BST) é uma árvore binária que só permite armazenar valores menores do lado esquerdo e valores maiores no lado direito. 
+
+![Ilustração de uma BST](../Excalidraw/estrutura_de_dados_e_algoritmos/binary_search_tree.svg)
+
+O fluxo de adição de um elemento em uma BST é:
+
+![Adição de registro em uma árvore](../Excalidraw/estrutura_de_dados_e_algoritmos/tree_arvore_add.svg)
+
+Para percorrer uma árvore existem algumas estratégias, dentre elas temos: 
+- em-ordem (in-order), que visita todos os nós de uma BST em ordem crescente;
+- pré-ordem (pre-order);
+- pós-ordem (post-order).
+
+O fluxo do em-ordem é ilustrado por:
+![Percurso em uma árvore in-order](../Excalidraw/estrutura_de_dados_e_algoritmos/tree_arvore_in_order.svg)
