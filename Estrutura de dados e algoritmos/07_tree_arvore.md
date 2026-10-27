@@ -28,8 +28,33 @@ O fluxo de adição de um elemento em uma BST é:
 
 Para percorrer uma árvore existem algumas estratégias, dentre elas temos: 
 - em-ordem (in-order), que visita todos os nós de uma BST em ordem crescente;
-- pré-ordem (pre-order);
-- pós-ordem (post-order).
+- pré-ordem (pre-order), que visita o nó antes de visitar seus descendentes, visitando o nó raiz, depois o nós a esquerda e, por fim, o nó a direita;
+- pós-ordem (post-order), que visita o nó depois de visitar os seus descendentes.
 
 O fluxo do em-ordem é ilustrado por:
 ![Percurso em uma árvore in-order](../Excalidraw/estrutura_de_dados_e_algoritmos/tree_arvore_in_order.svg)
+
+O fluxo do pré-ordem é ilustrado por:
+![Percurso em uma árvore pre-order](../Excalidraw/estrutura_de_dados_e_algoritmos/tree_arvore_pre_order.svg)
+
+O fluxo do pós-ordem é ilustrado por:
+![Percurso em uma árvore post-order](../Excalidraw/estrutura_de_dados_e_algoritmos/tree_arvore_post_order.svg)
+
+#### Pesquisa de valores em uma árvore
+
+Existem três tipos de pesquisa geralmente executadas em uma árvore:
+- pesquisa de valores mínimos;
+- pesquisa de valores máximo;
+- pesquisa de valor específico.
+
+![Pesquisa de valores mínino e máximo](../Excalidraw/estrutura_de_dados_e_algoritmos/tree_arvore_min_max.svg)
+
+### Árvores autobalanceadas
+
+Na BST, quanto amis nós forem adicionados, uma das arestas da árvore pode crescer e se tornar muito profunda, ou seja, um galho da árvore tem um nível muito alto, enquanto outro tem um nível muito baixo, por exemplo:
+
+![Árvore desbalanceada](../Excalidraw/estrutura_de_dados_e_algoritmos/tree_arvore_self_balanced.svg)
+
+Esse comportamento por implicar em problemas de desempenho nas operações relacionadas a árvore. Para resolver isso, existe a árvore AVL (Árvore de Adelson-Velskii e Landi). A árvore AVL é uma BST autobalanceada onde a altura das subárvores à direita e à esquerda só podem diferir em no máximo 1.
+
+#### Árvore de Adelson-Velskii e Landi - AVL
